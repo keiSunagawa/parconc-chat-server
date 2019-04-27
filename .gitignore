@@ -20,3 +20,33 @@ cabal.project.local
 cabal.project.local~
 .HTF/
 .ghc.environment.*
+
+tmp
+target
+build
+out
+logs
+node_modules
+*.log
+
+# idea
+.idea_modules
+.classpath
+.project
+.settings
+.history
+.idea
+*.iml
+
+# Mac
+.DS_Store
+
+# emacs
+*~
+.ensime
+.ensime_cache/
+\#*\#
+.metals
+
+# bloop
+.bloop/
